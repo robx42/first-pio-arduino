@@ -71,9 +71,9 @@ void loop() {
 
   // Below is one way to implement a timed IO signal.  This is not efficient, since we are spending processor time doing nothing
   digitalWrite(DELAY_GPIO_PIN,HIGH);
-  delay(100);
+  delay(1000); // set to 100 to make equal to timer
   digitalWrite(DELAY_GPIO_PIN,LOW);
-  delay(100);
+  delay(1000);
 }
 
 // put function definitions here:
